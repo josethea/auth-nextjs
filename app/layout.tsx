@@ -17,9 +17,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Suspense>
-        <body className={inter.className}>{children}</body>
-      </Suspense>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
